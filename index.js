@@ -41,7 +41,7 @@ const main = async () => {
         console.log(`${"Ciudad:".bold} ${lugarSel.nombre}`);
         console.log(`${"Latitud:".bold} ${lugarSel.latitud}`);
         console.log(`${"Longitud:".bold} ${lugarSel.longitud}`);
-        console.log(`${"Descripción:".bold} ${clima.desc}`);
+        console.log(`${"Información del clima:".bold} ${clima.desc}`);
         console.log(`${"Temperatura:".bold} ${clima.temp} ºC`);
         console.log(`${"Temperatura Máxima:".bold} ${clima.max_temp} ºC`);
         console.log(`${"Temperatura Mínima:".bold} ${clima.min_temp} ºC`);
